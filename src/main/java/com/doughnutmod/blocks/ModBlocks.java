@@ -8,7 +8,7 @@ public class ModBlocks {
     public static void init(){
         final ModRegistry registry = DoughnutMod.REGISTRY;
 
-        
+
     }
 
 
