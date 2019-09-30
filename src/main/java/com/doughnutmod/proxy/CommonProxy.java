@@ -6,6 +6,7 @@ import com.doughnutmod.blocks.ModBlocks;
 import com.doughnutmod.items.ModItems;
 import com.doughnutmod.items.coatings.CoatingType;
 import com.doughnutmod.items.toppings.sprinkles.SprinklesEnum;
+import com.doughnutmod.world.VillageHandler;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
@@ -33,7 +34,7 @@ public class CommonProxy {
     }
 
     public void init(FMLInitializationEvent e){
-
+        VillageHandler.initBakery();
     }
 
     public void postInit(FMLPostInitializationEvent e){
