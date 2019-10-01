@@ -92,7 +92,6 @@ public class RingDoughnut extends ItemFood {
     }
     @SideOnly(Side.CLIENT)
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn){
-        tooltip.add(TextFormatting.YELLOW+"RingDoughnut");
         String flavorS = "Plain";
         tooltip.add(TextFormatting.WHITE + "Flavor:");
         PotionEffect flavorP = new PotionEffect(flavor.getEffect(),MathHelper.floor(factor*(float)flavor.getDuation()),flavor.getAmplifier());
